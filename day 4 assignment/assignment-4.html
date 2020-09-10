@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport", content="width", initial-scale="1.0"/>
+    <title>
+        Day 4 assignment 4
+
+    </title>
+</head>
+<body>
+    <p> Program for array of object </p>
+    
+    <script>
+             let data=[
+        {name:"chetan"},
+        {age:24},
+        {country:"India"},
+        {hobbies:['reading','writing','watching tv']},
+
+        {name:"amol"},
+        {age:25},
+        {country:"Japan"},
+        {hobbies:['reading','dancing','watch tv']},
+
+        {name:"rakesh"},
+        {age:20},
+        {country:"America"},
+        {hobbies:['reading','dancing','watch tv']},
+
+        {name:"Namrata"},
+        {age:24},
+        {country:"India"},
+        {hobbies:['reading','dancing','watch tv']},
+
+        {name:"jagruti"},
+        {age:35},
+        {country:"Videsh"},
+        {hobbies:['reading','dancing','watch tv']},
+    ]
+
+        console.log("age is < 30");
+        for(let i=0;i<data.length;i++){
+        if (data[i].age<30){
+        console.log(data[i])
+            }
+        }
+
+        console.log("object of Country is India:");
+        for (let i=0;i<data.length;i++){
+            if(data[i].country=="India"){
+                console.log(data[i])
+            }
+        }
+    </script>
+</body>
+</html>
